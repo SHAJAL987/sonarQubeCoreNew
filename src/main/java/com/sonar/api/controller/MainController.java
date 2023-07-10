@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @GetMapping("/health")
     public String healthCheck(){
+        System.out.println("Added Test");
         return "API Health is Ok!!";
     }
+
 }
