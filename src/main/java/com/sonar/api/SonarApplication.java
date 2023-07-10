@@ -14,7 +14,6 @@ public class SonarApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SonarApplication.class, args);
 	}
-
 	@GetMapping("/v1")
 	public String test(){
 		return "Hello";
